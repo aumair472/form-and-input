@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & input</title>
+</head>
+
+<body>
+    <h1>Form Information</h1>
+    <form action="post">
+
+        <div>
+            <label for="username">Enter Your Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username" required>
+        </div>
+
+        <div>
+            <label for="email">Enter Your Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+
+        <div>
+            <label for="password">Enter Your Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">Subscribe To Newsletter</label>
+        </div>
+
+        <div>
+            <label for="description">Description</label>
+            <textarea name="description" id="description" cols="20" rows="5" placeholder="Rewards."></textarea>
+        </div>
+
+        <div>
+            <select name="fruit" id="fruit">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit" class="form-control">
+        </div>
+    </form>
+</body>
+
+</html>
